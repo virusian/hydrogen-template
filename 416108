@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1.0">
+  <title>Services - YUNOH CLEAN ONLINE SERVICES</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+        /* Set the background color of the entire body to white */
+        body {
+            background-color: white; /* Changed to white */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box; /* Add box-sizing */
+        }
+
+            /* Navigation container styles */
+  nav {
+    background-color: red; /* Updated to red */
+    padding: 8px 0; /* Reduced padding */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center links horizontally */
+    gap: 15px; /* Reduced spacing between links */
+    flex-wrap: wrap; /* Ensure the links wrap on small screens */
+  }
+
+  nav a {
+    color: white;
+    font-size: 1em; /* Reduced font size */
+    text-decoration: none;
+    padding: 8px 16px; /* Adjusted padding */
+    background-color: #424;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  nav a:hover {
+    background-color: #ff63ff;
+    transform: translateY(-5px); /* Adds a slight hover effect */
+  }
+             transform 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ff6347;
+            transform: translateY(-5px); /* Adds a slight hover effect */
+        }
+
+        /* Gradient background for "Our Services" section with high-speed color change */
+        .service-container {
+            max-width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background: linear-gradient(45deg, #ff1493, #32cd32, #ff4500, #f85d03, #9932cc, #ff6347, #ff00ff);
+            background-size: 800% 800%; /* Expanding the gradient for more colors */
+            animation: gradient 7s ease infinite; /* High-speed gradient animation */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .service-title {
+            font-size: 2em;
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .service-box {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: slideInFromBottom 1s ease-out;
+        }
+
+        @keyframes slideInFromBottom {
+            0% {
+                opacity: 0;
+                transform: translateY(100%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .service-box h2 {
+            color: rgb(237, 8, 8);
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .service-box p {
+            font-size: 1em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: darkgreen;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #1e194a;
+            color: white;
+        }
+
+        footer div {
+            color: orange;
+        }
+
+        /* Animation for rotating "DIGITAL ONLINE SALES" */
+        .animated-text {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #74089e;
+            text-align: center;
+            animation: rotateText 5s ease-in-out infinite; /* Changed to rotation animation */
+        }
+
+        @keyframes rotateText {
+            0% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(180deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column; /* Stack links vertically on smaller screens */
+                gap: 10px;
+            }
+
+            nav a {
+                font-size: 1em;
+                padding: 8px 16px; /* Adjust padding */
+                margin: 5px; /* Reduce margin */
+            }
+
+            .service-title {
+                font-size: 1.5em;
+            }
+
+            .service-box h2 {
+                font-size: 1.3em;
+            }
+
+            .service-box p {
+                font-size: 0.9em;
+            }
+        }
+  </style>
+  <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        line-height: 1.6;
+                        background-color: #f9f9f9;
+                        margin: 20px;
+                        color: #333;
+                    }
+                    h1, h2 {
+                        color: #1c0c82;
+                    }
+                    ul {
+                        margin: 10px 0;
+                        padding: 0 20px;
+                    }
+                    .note {
+                        background-color: #f2f2f2;
+                        border-left: 5px solid #ffa500;
+                        padding: 10px;
+                        margin: 10px 0;
+                    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <a href="index.html">YUNOH CLEAN ONLINE SERVICES</a> <a href="about.html">HUDUMA ZETU KWA WATEJA WETU</a>
+      <a href="services.html">KULIPIA HUDUMA ZETU LIPA HALOTEL: 23288206
+JINA : Yunoh Classic tz</a> <a href=
+      "contact.html">CONTACT US</a>
+    </nav>
+  </header><!-- Animated Text for "YUNOH CLEAN ONLINE SERVICES" -->
+  <section>
+    <div class="animated-text">
+      YUNOH CLEAN ONLINE SERVICES 
+    </div>
+  </section><!-- Services Section -->
+  <section class="service-container">
+    <h1 class="service-title">HUDUMA ZETU & VIGEZO</h1>
+    <!-- M-PESA Services -->
+    <div class="service-box">
+      <h2>HUDUMA ZA VODACOM</h2>
+      <p>YUNOH CLEAN ONLINE SERVICES, Tupo kwaajiri yako na tutahakikisha
+      unapata huduma bora za LIPA kwa M-PESA kutoka Vodacom.
+      Tunawezesha tunawawezesha wafanya biashara wa aina zote,
+      kuanzia wadogo, wakati na wafanya biashara wakubwa. hivi hapa
+      vigezo vya kupata lipa kwa M-PESA.</p>
+      <p>Kigezo cha kwanza uwe na tin namba. Kama hauna TIN NAMBA,
+      usijari utatengenezewa</p>
+      <p>Kigezo cha pili uwe na namba ya nida au kitambulisho cha
+      nida.</p>
+      <div class="note">
+        <p>baada ya apo, SAJIRI LAINI MPYA ya voda, zingatia ukisha
+        sajiri laini hiyo ya voda usiiwezeshe upande wa m-pesa
+        yaani USIIWEKEE NAMBA YA SIRI AU PIN. namba ya siri utaweka
+        baada ya lipa namba yako kukamilika<br>
+        kwahio sasa unachotakiwa kufanya mara baada ya kuisajiri
+        laini yako weka vocha ya kukwangua ya elf 1000 au ya mia
+        500.</p>
+        <p>Baada ya hapo ntumie majina ako yote matatu kwa usahihi
+        bila kuyakosea. pia ntumie picha yako ya mfumo wa passport
+        size, jipige picha kwa kutumia simu yako.</p>
+        <p>VIGEZO NI HIVYO BOSS... Karibu sana!!</p>
+      </div><a href="https://wa.me/255733107308" class=
+      "cta-button">Wasiliana nasi WhatsApp</a>
+    </div><!-- Airtel Services -->
+    <div class="service-box">
+      <h2>HUDUMA ZA AIRTEL</h2>
+      <h1>Maelekezo ya Kupata Laini ya Uwakala wa Airtel Money na
+      Lipa Namba</h1>
+      <h2>Vigezo vya Kupata Laini ya Uwakala wa Airtel Money</h2>
+      <ul>
+        <li>Uwe na <strong>TIN Number</strong>.</li>
+        <li>Laini siyo lazima mpya, unaweza kutumia laini
+        uliyonayo, lakini <strong>hakikisha haijaunganishwa na Lipa
+        Namba wala huduma ya SME</strong>.</li>
+        <li>Ikiwa laini ni mpya:
+          <ul>
+            <li>Hakikisha <strong>akaunti ya Airtel Money
+            imefunguliwa au imewezeshwa</strong>.</li>
+            <li>Weka vocha ya <strong>Tsh 1,000 au Tsh 500</strong>
+            na uunge kifurushi chochote (dakika au bando).</li>
+          </ul>
+        </li>
+        <li>Tuma maelezo yafuatayo:
+          <ul>
+            <li><strong>TIN Number</strong></li>
+            <li><strong>Namba ya Simu</strong></li>
+          </ul>
+        </li>
+      </ul>
+      <h2>Vigezo vya Kupata Lipa Namba ya Airtel</h2>
+      <ul>
+        <li>TUTUMIE VIGEZO VIFUATAVYO:
+          <ul>
+            <li><strong>Namba yako ya NIDA</strong></li>
+            <li><strong>Namba yako ya Airtel</strong></li>
+            <li><strong>TIN namba yako</strong></li>
+            <li><strong>Majina yako yote matatu</strong></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="note">
+        <h3>⚠ Zingatia Masharti Haya ⚠</h3>
+        <ul>
+          <li>Kama laini yako ni mpya, hakikisha:
+            <ul>
+              <li><strong>Umeweka vocha</strong> na kuunga
+              kifurushi chochote cha kuanzia Tsh 500 na
+              kuendelea.</li>
+              <li><strong>Akaunti ya Airtel Money imefunguliwa au
+              imewezeshwa</strong> (uweke namba ya siri ya Airtel
+              Money).</li>
+            </ul>
+          </li>
+          <li>Laini yako haipaswi kuwa na:
+            <ul>
+              <li>Huduma ya SME.</li>
+              <li>TILL ya uwakala wa Airtel Money.</li>
+              <li>Lipa Namba nyingine iliyosajiliwa kwa majina yako
+              au NIDA yako.</li>
+            </ul>
+          </li>
+        </ul>
+      </div><a href="https://wa.me/255733107308" class=
+      "cta-button">Wasiliana nasi WhatsApp</a>
+    </div><!-- Halotel Services -->
+    <div class="service-box">
+      <h2>HUDUMA ZA HALOTEL</h2>
+      <p>Je, unahitaji laini yako iwe ya uwakala wa
+      <strong>Halopesa</strong>? Tunakupa fursa ya kuboresha
+      biashara yako kwa kukusaidia kupata huduma hii kwa urahisi.
+      Hakikisha unakidhi vigezo vilivyowekwa ili kufanikisha
+      mchakato wa usajili.</p>
+      <section>
+        <h2>Vigezo vya Kupata Laini ya Uwakala wa Halopesa</h2>
+        <ul>
+          <li><strong>Uwe na TIN Namba</strong>: Hii ni muhimu kwa
+          usajili wa kibiashara.</li>
+          <li><strong>Kitambulisho.</strong>: Hakikisha una
+          kitambulisho cha mpiga kura au kitambulisho cha
+          NIDA.</li>
+          <li>
+            <strong>Mtaji wa Awali</strong>: Kwenye akaunti yako ya
+            Halotel, hakikisha kuna kiasi cha <strong>shilingi laki
+            moja</strong> (Tsh 100,000).
+            <ul>
+              <li>Kiasi hiki ni mtaji wako wa awali wa
+              <strong>float</strong> kwa ajili ya kukamilishia Till
+              yako Halopesa.</li>
+              <li>usajili ukisha kamilika baada yako utaruhusiwa
+              kuitoa float yako.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="note">
+        <h2>Zingatia</h2>
+        <p>Bila kuwa na <strong>shilingi laki moja</strong> kwenye
+        akaunti yako ya Halotel, <span class="strong">laini ya
+        uwakala haiwezi kutengenezwa</span>. Maombi yatakayokosa
+        vigezo hivi yatakataliwa mara moja ,MTEJA ATAKAMA HANA KIGEZO CHOCHOTE KIGEZO TUMELAISISHIWA ONLINE VINAPATIKANA NJOO SASA UPATE UDUMA
+KUKUTAFUTA VIGEZO UNACHANGIA YA BANDO TUU
+HALOPESA 
+LIPA HALOPESA 
+LIPA AIRTEL 
+SME AIRTEL 
+SME POSTPAID 
+UDUMA IZI NI SIO GHARAMA KABISA
+
+ *TUPO KWA AJILI YAKO*
+        (<strong>Rejected❌</strong>).</p>
+      </section>
+      <section>
+        <h2>Je, Unahitaji Msaada Zaidi?</h2>
+        <p>Kwa maelezo zaidi au msaada wa haraka, wasiliana nasi
+        kupitia njia zetu za mawasiliano. Tunatoa huduma za
+        kitaalam kuhakikisha mchakato wako unakamilika kwa
+        mafanikio.</p>
+        <p><strong>Jiunge nasi leo na uanze safari yako ya
+        mafanikio na Halopesa!</strong></p><a href=
+        "https://wa.me/255733107308" class=
+        "cta-button">Wasiliana nasi WhatsApp</a>
+      </section>
+    </div><!-- Other Services -->
+    <div class="service-box">
+      <h2>HUDUMA ZA ZIADA.</h2>
+      <p>Tunajitahidi kutoa huduma bora za kusaidia wateja wetu
+      kufanikisha malengo yao ya biashara na kuepuka changamoto
+      katika masuala mbalimbali ya uwakala, usajili wa biashara, na
+      uboreshaji wa masoko. Huduma zetu ni zenye ubunifu na gharama
+      nafuu.</p>
+      <section>
+        <h2>Huduma Tunazotoa</h2>
+        <ul>
+          <li><strong>Kukabiliana na Changamoto za Uwakala na Lipa
+          Namba</strong><br>
+          Tunakusaidia kutatua matatizo yote yanayohusiana na
+          huduma za uwakala na Lipa Namba. Ikiwa unahitaji msaada
+          wa kiufundi au maelezo kuhusu namna ya kusimamia huduma
+          hizi, sisi ndio suluhisho lako.</li>
+          <li><strong>Utengenezaji wa TIN Namba</strong><br>
+          TIN Namba ni muhimu kwa shughuli za kibiashara na kodi.
+          Tunakusaidia kupata TIN Namba kwa urahisi, pamoja na
+          kutoa elimu kuhusu umuhimu wake na jinsi inavyoweza
+          kukuza biashara yako.</li>
+          <li><strong>Kupata Leseni ya Biashara</strong><br>
+          Tunatoa mwongozo kamili wa hatua za kupata leseni ya
+          biashara. Huduma hii inalenga kuhakikisha biashara yako
+          inasajiliwa kihalali na ina uwezo wa kufanya kazi bila
+          changamoto za kisheria.</li>
+          <li><strong>Usajili wa Jina la Biashara (BRELA
+          Registration)</strong><br>
+          Tunaelewa kuwa kusajili jina la biashara yako ni hatua
+          muhimu katika kuanzisha biashara rasmi. Tunakusaidia
+          mchakato mzima wa usajili kupitia BRELA kwa urahisi na
+          haraka. kwa gharama ya TSH 25,000/= TU</li>
+          <li><strong>Huduma za Graphic Design na Website
+          Design</strong><br>
+          Tunatengeneza miundo bora ya picha na tovuti ili
+          kuhakikisha biashara yako inaonekana kitaalam mtandaoni.
+          Tunazingatia mahitaji yako na tunatoa huduma kwa bei
+          nafuu na ubora wa hali ya juu.</li>
+          <li><strong>Elimu Kuhusu Biashara za
+          Mtandaoni</strong><br>
+          Biashara za mtandaoni zimekuwa na umuhimu mkubwa katika
+          uchumi wa kisasa. Tunatoa mafunzo maalum ya jinsi ya
+          kuanzisha na kuendesha biashara zako mtandaoni kwa
+          mafanikio makubwa.</li>
+          <li><strong>Matangazo ya Biashara Kupitia WhatsApp Bulk
+          Sender</strong><br>
+          Tunakusaidia kutumia mfumo wa WhatsApp Bulk Sender ili
+          kutangaza bidhaa na huduma zako kwa wateja wengi mara
+          moja. Mfumo huu unasaidia kufikia wateja wengi kwa
+          gharama nafuu na kwa urahisi.</li>
+          <li>
+            <strong>Mafunzo ya WhatsApp Automatic Reply
+            System</strong><br>
+            Tunatoa mafunzo ya jinsi ya kutumia na kusanidi mfumo
+            wa WhatsApp Automatic Reply. Mfumo huu unakusaidia
+            kujibu wateja wako kwa haraka na kitaalam hata kama
+            haupo mtandaoni. Gharama ya mafunzo ni <span class=
+            "highlight"> BADO IPO KWENYE MKANGAMANO KTK BEI ILA ITAKUWA AFFORDABLE KWA KILA MTU/=</span>.
+            <p class="note">Mfumo huu ni muhimu kwa biashara
+            zinazopokea maombi au maswali mengi kutoka kwa
+            wateja.</p>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <p><strong>Wasiliana nasi leo ili kufanikisha ndoto zako za
+        biashara na huduma bora!</strong></p><a href=
+        "https://wa.me/255733107308" class=
+        "cta-button">Wasiliana nasi WhatsApp</a>
+      </footer>
+    </div>
+  </section><!-- Mafunzo ya uwakala -->
+  <div class="service-box">
+    <h2>ELIMU KUHUSU BIASHARA YA UWAKALA</h2>
+    <p>Ukiwa Kama wakala wa mtandao wa <strong>Airtel,M-PESA, na
+    HALOTE,</strong>au hata kwa mitandao mingine unapaswa kufahamu
+    wajibu wako kama mtoa huduma.<br>
+    hivyo basi kazi yako ni kuhakikisha, huduma zinawafikia wateja
+    kwa haraka, usalama na ufanisi. sisi kama <strong>YUNOH CLEAN ONLINE 
+SERVICES
+      </strong> tutakupa elimu kwa ufupi kuhusu biashara
+    hii ya uwakala.</p>
+    <h1>MHIMU KUZINGATIA.</h1>
+    <ol>
+      <li>
+        <strong>kitu cha kwanza, elewa mfumo mzima wa utoaji huduma
+        kwa kila Mtandao.</strong>
+        <ul>
+          <li><strong>Airtel money:</strong> unapaswa kufahamu
+          matumizi sahihi ya flot, jinsi ya kuhudumia mteja anae
+          taka kutoa pesa pia mteja wa kutuma pesa, kulipia huduma
+          mbalimbali mfano, luku, bill na malipo mengine ya
+          serikali.</li>
+          <li><strong>Halopesa:</strong> Huduma zinazo jumuisha
+          kutuma pesa, kutoa pesa, kulipia bili na kununua vocha za
+          simu.</li>
+          <li><strong>M-pesa:</strong> kuhusu miamala ya pesa,
+          matumizi sahihi ya huduma ya voda rusha kwa kutumia menyu
+          ya <strong>*150*00*50#</strong> pia matumizi ya
+          <strong>wakala songesha.</strong></li><br>
+        </ul>
+      </li>
+    </ol>
+    <p style="color: #ea5b1d; text-align: center;"><strong>Kwa
+    elimu na msaada zaidi wasiliana kupitia whatsapp namba
+    0733107308.<br>
+    Anzisha mazungumzo kwa kuandika HUDUMA UNAYO HITAJI KISHA UTAPEWA MAELEKEZO kisha utajibiwa
+    , baada ya hapo fuata maelekezo ya mfumo. andika majibu ya kile utakacho ulizwa
+    au kama hauna fuata  maelekezo ili uweze kujihudumia kwa haraka na
+    kwa ufanisi wa haki ya juu. ahsante kwa kuchagua huduma zetu
+    kutoka YUNOH CLEAN ONLINE SERVICE S.</strong></p>
+   
+  <!-- Main content area -->
+  <main>
+    <!-- M-PESA Services Section -->
+    <div class="service-box" id="mpesa">
+      <div class="service-title">
+        HUDUMA ZA VODACOM
+      </div>
+      <p>YUNOH CLEAN ONLINE SERVICES, tutakusaidia wewe mteja wetu wa
+      dhamani kupata huduma zifuatazo.</p>
+      <ol>
+        <li>KUWEZESHA HUDUMA YA LIPA KWA M-PESA.</li>
+        <li>KUWEZESHA VIFURUSHI VYA SME & M2M BUNDLES.</li>
+        <li>KUWEZESHA LAINI ZA UWAKALA WA M-PESA.</li>
+        <li>TUTAKUSAIDIA KUTATUA CHANGAMOTO MBALIMBALI KUHUSU
+        HUDUMA ZA VODACOM.</li>
+        <li>TUTAKUPA ELIMU NA MAFUNZO KUHUSU BIASHARA YA
+        UWAKALA.</li>
+      </ol><span class="read-more"><a href="read-more.html">WhatsApp me
+  ...</a></span>
+    </div><!-- WhatsApp Services Section -->
+    <div class="service-box" id="airtel">
+      <div class="service-title">
+        HUDUMA ZA AIRTEL
+      </div>
+      <p>YUNOH CLEAN ONLINE SERVICES, tutakusaidia wewe mteja wetu kupata
+      huduma zifuatazo.</p>
+      <ol>
+        <li>KUWEZESHA LAINI ZA UWAKALA WA AIRTEL MONEY.</li>
+        <li>KUWEZESHA BANDO ZA AIRTEL SME (Bando za bei nafuu)</li>
+        <li>KUWEZESHA LAINI YA LIPA KWA AIRTEL MOMEY.</li>
+        <li>TUTAKUPA ELIMU NA MAFUNZO KUHUSU BIASHARA YA
+        UWAKALA.</li>
+        <li>KUTATUA CHANGAMOTO MBALIMBALI ZINAZOHUSIANA NA
+        AIRTEL.</li>
+      </ol><span class="read-more"><a href=
+      "read-more-airtel.html">WHATSAPP ME...</a></span>
+    </div><!-- Contact us Section -->
+    <div class="service-box" id="halotel">
+      <div class="service-title">
+        HUDUMA ZA HALOTEL
+      </div>
+      <p>YUNOH CLEAN ONLINE SERVICES, tupokaribu yako wewe mteja wetu wa
+      Halotel.</p>
+      <ol>
+        <li>TUTAKUSAIDIA KUWEZESHA LAINI YA UWAKALA YA
+        HALOPESA.</li>
+        <li>TUTAKUSAIDIA KUWEZESHA LIPA NAMBA YA HALOPESA.</li>
+        <li>TUTAKUPA ELIMU NA MAFUNZO KUHUSU BIASHARA YA
+        UWAKALA.</li>
+        <li>TUTAKUSAIDIA KUTATUA CHANGAMOTO MBALIMBALI NA KUKUPA
+        SULUHISHO.</li>
+ ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NAMBA ZA MALIPO</title>
+</head>
+<body>
+<h2>NAMBA ZA MALIPO</h2>
+<img src="images/red.jpg" alt="Picha za Halotel Week MBili">
+<h3>HALOTEL ZA WEEK MBILI</h3>
+<img src="images/red.jpg" alt="Picha za Halotel Week MBili">
+<ul>
+<li>GB3=Tsh 4500</li>
+<li>GB4=Tsh 6000</li>
+<li>GB5=Tsh 7500</li>
+<li>GB6=Tsh 9000</li>
+<li>GB7=Tsh 10500</li>
+<li>GB8=Tsh 13000</li>
+<li>GB9=Tsh 14500</li>
+</ul>
+
+<h3>GB ZA HALOTEL MWEZI</h3>
+<img src="image/more.jpg" alt="HALOTEL BUNDLE ">
+<ul>
+<li>GB10=Tsh 11000</li>
+<li>GB11=Tsh 13000</li>
+<li>GB13=Tsh 15000</li>
+<li>GB15=Tsh 17000</li>
+<li>GB16=Tsh 19000</li>
+<li>GB18=Tsh 21000</li>
+<li>GB20=Tsh 23000</li>
+<li>GB24=Tsh 25000</li>
+<li>GB26=Tsh 28000</li>
+<li>GB30=Tsh 29,000</li>
+<li>GB39=Tsh 41,000</li>
+<li>GB40=Tsh 43,000</li>
+<li>GB52=Tsh 45,000</li>
+<li>GB65=Tsh 48000</li>
+<li>GB78=Tsh 62000</li>
+<li>GB100=Tsh 80000</li>
+</ul>
+
+<h3>VODACOM UNLIMITED YA MWAKA</h3>
+<img src="image/more.jpg" alt="Picha Vodacom Unlimited ya Mwaka">
+<ul>
+<li>BEI 230,000-speed ya kawaida</li>
+<li>BEI 300,000-speed ya kati</li>
+<li>BEI 400,000-speed ya juu</li>
+</ul>
+
+<h3>SME VODACOM</h3>
+<ul>
+<li>5500</li>
+<li>VIGEZO: LESSEN</li>
+</ul>
+
+</body>
+</html>
+      </ol><span class="read-more"><a href=
+      "read-more-halotel.html">WHATSAPP ME...</a></span>
+    </div><!-- Other Services Section -->
+    <div class="service-box" id="other-services">
+      <div class="service-title">
+        HUDUMA NYINGINEZO
+      </div>
+      <p>Ukiwa na sisi YUNOH CLEAN ONLINE SERVICES , Pia utapata huduma
+      zifuatazo.</p>
+      <ol>
+        <li>Tutahakikisha tunakupa msaada wa haraka ukiwa na
+        CHANGAMOTO za masuala ya UWAKALA, LIPA NAMBA, nk.</li>
+        <li>Tutakutengenezea TIN NAMBA, pia tutakupa elimu na
+        mafunzo kuhusu faida za TIN namba.</li>
+        <li>Tutakupa mwongozo wa namna ya kupata leseni ya
+        BIASHARA.</li>
+        <li>Tutakusaidia kusajiri jina la biashara yako (BRELA
+        REGISTRATION).</li>
+        <li>Tunafanya GRAPHIC DESIGN pamoja na WEBSITE DESIGN, kwa
+        bei nafuu sana.</li>
+        <li>Tunatoa Elimu kuhusu biashara za ONLINE.</li>
+        <li>Tutakusaidia kuitangaza BIASHARA yako kwa kutumia mfumo
+        wa WhatsApp BULK SENDER.</li>
+        <li>Tunatoa huduma ya bundle za bei rahisi sana hii kwa sabab ya kuokoa matumizi makubwa ya hela kunua bundle kwa mitandao ifuatayo:-
+           
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIRTEL SME</title>
+</head>
+<body>
+<h2>AIRTEL SME</h2>
+<p>》Hii ni huduma rasmi kwa watumiaji wa mtandao wa AIRTEL tu wenye matumizi makubwa ya kimtandao</p>
+<p>》MENU HII NAISAJILI KWA GHARAMA YA ELFU TATU (3000/=) NA MALIPO NI BAADA YA KAZI YAKO KUKAMILIKA</p>
+<p>NDUGU MTEJA MIMI SIUNGI BANDO BALI NAKUSAJILIA MENU YA AIRTEL SME NA WEWE NDIO UTAKUA UNAJIUNGA BANDO HIZI KUPITIA MENU NITAKAYOKUSAJILIA KWA KUPIGA *149*91#.
+unatakiwa kuwa na airtel number Nida na Tin number
+♤Cha muhimu namba yako ya airtel isiwe ya uwakala wala isiwe na lipa namba na pia inatakiwa iwe na salio kulingana na bando unalohitaji maana mara baada ya kusajiliwa utajiunga bando lako papo hapo kwa kupiga *149*91#</p>
+<p>》KARIBU NIKUHUDUMIE KAMA HAUNA TIN NAMBA NAKUTENGENEZEA</p><img     src="https://i.imgur.com/RxgZCav.jpeg.jpg" alt="Picha ya AIRTEL SME">
+</body>
+</html>
+/=</li>
+      </ol><span class="read-more"><a href=
+    <nav>
+      <a href="index.html" class="back-link">Karibu tena na tena</a>
+    </nav>
+  </div><!-- Footer -->
+  <footer>
+    <div>
+      © 2025 All rights are reserved by Yunohclassictz 
+    </div>
+  </footer>
+</body>
+</html>
