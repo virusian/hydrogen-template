@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content=
   "width=device-width, initial-scale=1.0">
-  <title>Services - YUNOH CLEAN ONLINE SERVICES</title>
+  <title>Services - Virusi CLEAN ONLINE SERVICES</title>
   <link rel="stylesheet" href="style.css">
   <style>
         /* Set the background color of the entire body to white */
@@ -52,7 +52,7 @@
             transform: translateY(-5px); /* Adds a slight hover effect */
         }
 
-        /* Gradient background for "Our Services" section with high-speed color change */
+        /* Gradient background for "My Services" section with high-speed color change */
         .service-container {
             max-width: 90%;
             margin: 20px auto;
@@ -144,7 +144,7 @@
             color: orange;
         }
 
-        /* Animation for rotating "DIGITAL ONLINE SALES" */
+        /* Animation for rotating "VIRUSI 🦠 ONLINE SALES" */
         .animated-text {
             font-size: 2.5em;
             font-weight: bold;
@@ -219,18 +219,18 @@
   <header>
     <nav>
       <a href="index.html">YUNOH CLEAN ONLINE SERVICES</a> <a href="about.html">HUDUMA ZETU KWA WATEJA WETU</a>
-      <a href="services.html">KULIPIA HUDUMA ZETU LIPA HALOTEL: 23288206
-JINA : Yunoh Classic tz</a> <a href=
+      <a href="services.html">KULIPIA Services  Lipa Na Mpesa: 8855502
+JINA : Peter Samuel </a> <a href=
       "contact.html">CONTACT US</a>
     </nav>
-  </header><!-- Animated Text for "YUNOH CLEAN ONLINE SERVICES" -->
+  </header><!-- Animated Text for "VIRUSI 🦠 ONLINE SERVICES" -->
   <section>
     <div class="animated-text">
-      YUNOH CLEAN ONLINE SERVICES 
+      VIRUSI 🦠 CLEAN ONLINE SERVICES 
     </div>
   </section><!-- Services Section -->
   <section class="service-container">
-    <h1 class="service-title">HUDUMA ZETU & VIGEZO</h1>
+    <h1 class="service-title">MY SERVICES </h1>
     <!-- M-PESA Services -->
     <div class="service-box">
       <h2>HUDUMA ZA VODACOM</h2>
